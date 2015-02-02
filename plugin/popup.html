@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>YouTube Comment Classifier Extension's Popup</title>
+    <style>
+      body {
+        min-width: 357px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+	<link rel="stylesheet" href="jquery-ui.css">
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="jquery-1.10.2.js"></script>
+	<script src="jquery-ui.js"></script>
+
+    <script src="popup.js"></script>
+   </head>
+  <body>
+
+<div id="pluginContent">
+<center><img src="724.GIF"><br>
+Classifying comments...
+</center>
+</div>
+  </body>
+</html>
+
